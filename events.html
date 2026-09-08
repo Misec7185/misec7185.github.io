@@ -1,0 +1,85 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Events Calendar</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.4/css/bulma.min.css">
+    <style>
+        :root {
+            --bulma-primary-h: 19deg;
+            --bulma-primary-l: 50%;
+            --bulma-link-h: 19deg;
+            --bulma-link-l: 60%;
+            --bulma-info-h: 267deg;
+            --bulma-info-s: 22%;
+            --bulma-info-l: 20%;
+            --bulma-danger-h: 360deg;
+            --bulma-danger-l: 66%;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar is-info" role="navigation" aria-label="main navigation">
+        <div class="navbar-brand">
+            <a class="navbar-item" href="https://misec.us">
+                <figure class="image">
+                    <img src="img/misec_reverse_full_logo_orange.svg" />
+                </figure>
+            </a>
+
+            <!-- Leave for mobile -->
+            <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+            </a>
+        </div>
+
+        <div id="navbarBasicExample" class="navbar-menu">
+            <div class="navbar-start">
+                <a class="navbar-item has-text-link" href="index.html">
+                    Home
+                </a>
+
+                <a class="navbar-item has-text-link" href="code-of-conduct.html">
+                    Code of Conduct
+                </a>
+
+                <a class="navbar-item has-text-primary" href="events.html">
+                    Events Calendar
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <section class="hero is-link">
+        <div class="hero-body">
+            <h1 class="title has-text-black">Event Calendar</h1>
+        </div>
+    </section>
+    <br>
+    </div>
+
+    <div class="container">
+        <div class="content">
+            <h2>
+                The following calendar displays #MISEC scheduled events.
+            </h2>
+            <p>Join us on <a href="https://discord.gg/DFeFsmZe4y">Discord</a> or <a href="https://www.linkedin.com/groups/14302095/">LinkedIn</a> to get more in-depth updates.</p>
+            <iframe src="https://calendar.google.com/calendar/embed?src=stream%40misec.us&ctz=America%2FDetroit" style="border: 0" width="1400" height="700" frameborder="0" scrolling="no"></iframe>
+            <br />
+            <h2> Missed a presentation? </h2>
+            <p>You may be able to find the recording on our <a href="https://www.youtube.com/@misec7185/">Youtube Channel</a> under the 'Live' tab.</p>
+        </div>
+
+        <footer class="footer">
+            <div class="content">
+                <p>
+                    <strong>#misec.</strong> 2025 All rights reserved.
+                </p>
+            </div>
+        </footer>
+</body>
+</html>
